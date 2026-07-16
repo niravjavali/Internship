@@ -6,41 +6,70 @@
     <title>My Portfolio Nirav</title>
 </head>
 <body>
-    <nav>
-        <a href="#about">About</a>
-        <a href="#skills">Skills</a>
-        <a href="projects">Projects</a>
-        <a href="contacts">Contact</a>
-    </nav>
     <header>
-        <h1>Hi, I'm Nirav👋 </h1>
-        <p> I'm a passionate web developer from Bangalore</p>
-        <a href="#hire me">Hire me</a>
+    <nav>
+        <div class="logo">Nirav</div>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contacts">Contact</a></li>
+        </ul>
+        <button class="Theme-toggle" aria-label="Toggle Dark Mode" tittle="Toggle Dark Mode">🌛</button>
+        <button class="Menu-toggle" aria-label="Toggle navigation" aria-expanded="false">≡</button>
+               
+    </nav>
     </header>
+    <main>
+        <section id="Hero" class="Hero-section">
+            <h1>Hi, I'm Nirav👋 </h1>
+            <p> I'm a passionate web developer from Bangalore</p>
+            <div class="Hero-button">
+                <a href="#projects">View my work</a>
+                <a href="#contacts">Contact me</a>
+                
+            </div>
+        </section>
+        <header>
+            <a href="#hire me">Hire me</a>
+        </header>
+        <section id="about" class="About-seciton">
+            <h2>About Me</h2>
+            <figure class="Profile-figure">
+                <img src="" alt="Profile photo">
+                <figcaption>Nirav web developer</figcaption>
+            </figure>
+            <p>I'm a passionate web developer</p>
 
-    </ol>
-    <section id="about">
-        <h2>About me</h2>
-        <img src="" alt="Profile pic">
-        <p>I love to code and develope a website and also im in my learning phase</p>
-        <h3>My Learning Journey</h3>
-        <ol>
-        <li>Started with basic HTML structure</li>
-        <li>Learned CSS for styling</li>
-        <li>Practiced JavaScript for interactivity</li>
-        <li>Exploring React for building dynamic apps</li>
-        </ol>
-    </section>
-
-    <section id="sills">
+        </section>
+    <section id="sills" class="skills-section">
     <h2>My Skills</h2>
-    <ul>
-        <li>HTML</li>
-        <li>CSS3</li>
-        <li>Javascript</li>
-        <li>React</li>
-    </ul>
-</section>
+    <div class="skill-grid">
+        <div class="skill-item" datalevel="90">HTML</div>
+        <div class="skill-item" datalevel="80">CSS</div>
+        <div class="skill-item" datalevel="75">Javascript</div>
+        <div class="skill-item" datalevel="60">React</div>       
+    </div>
+    </section>
+    <section id="projects" class="projects-section">
+        <h2>My Projects</h2>
+        <div class="project-grid">
+            <article class="Project-card" data-category="web">
+                <img src="" alt="Weather app screenshot">
+                <h3>Weather App</h3>
+                <p>Real-time weather dashboard using OpenWeather API</p>
+                <div class="project_tag">
+                    <span>React</span>
+                    <span>API</span>
+                </div>
+                <a href="#">Live Demo</a>
+                <a href="#">GitHub</a>
+            </article>
+
+        </div>
+
+    </section>
+    </main>
 
 <section id="projects">
     <h2>My Projects</h2>
@@ -59,6 +88,7 @@
     <h3>Project 3</h3>
     <p>Discription of project 3</p>
     <a href="#view project">projects</a>
+    <br>
 </section>
 
 <section id="Contact">
@@ -66,7 +96,8 @@
 <p>Email:<a href="mailto:niravjavali@gmail.com">niravjavali@gmail.com</a>,</p>
 <p>github:<a href="https://github.com/niravjavali">niravjavali</a></p>
 <p>linkedin:<a href="https://www.linkedin.com/in/nirav-javali-b194a640b/">Nirav Javali</a></p> -->
-
+<br><br>
+<caption>Skills</caption>
 <section id="skills">
     <table border="5">
         <tr>
