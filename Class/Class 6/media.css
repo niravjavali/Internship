@@ -1,0 +1,36 @@
+.project-grid{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+/* tablet */
+@media(min-width:768px)
+{
+    .project-grid{
+    grid-template-columns:repeat(2,fr);
+    }
+    .herosection{
+        font-size: 2.5rem;
+    }
+}
+
+@media(min-width: 1024px)
+{
+    .project-grid{
+        grid-template-columns: repeat(3,fr);    
+    }
+    .herosection{
+        font-size: 3.5rem;
+    }
+}
+
+@media(min-width: 1440px)
+{
+    .project-grid
+    {
+        grid-template-columns: repeat(4,fr);
+    }
+    .herosection
+    {
+        font-size: 4.5rem;
+    }
+}
