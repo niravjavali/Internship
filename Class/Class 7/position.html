@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body
+        {
+            background-color: dimgrey;
+        }
+        .One
+        {
+            background-color: black;
+            height: 100px;
+            width: 100px;
+            margin: 5px;
+            position: static;
+        }
+        .Two
+        {
+            background-color: grey;
+            height: 100px;
+            width: 100px;
+            margin: 5px;
+            position: relative;
+            left: 50px;
+            top: 50px;
+            z-index: 2;
+
+        }
+        .Three
+        {
+            background-color: lightgrey;
+            height: 100px;
+            width: 100px;
+            margin: 5px;
+            position: relative;
+            z-index: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="One"></div>
+    <div class="Two"></div>
+    <div class="Three"></div>
+    
+</body>
+</html>
